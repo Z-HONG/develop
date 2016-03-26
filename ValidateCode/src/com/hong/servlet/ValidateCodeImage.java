@@ -27,6 +27,7 @@ public class ValidateCodeImage extends HttpServlet {
 		session.setAttribute("captcha", captcha);
 		//通过ImageIO流输出验证码图片
 		ImageIO.write(bi, "jpeg", response.getOutputStream());
+		///
 	}
 
 	public void doPost(HttpServletRequest request, HttpServletResponse response)
