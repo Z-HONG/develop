@@ -21,6 +21,7 @@ public class ValidateCodeDemo extends HttpServlet {
 				response.getWriter().write("true");
 				return ;
 			}
+			//
 		}
 		response.getWriter().write("false");
 		
